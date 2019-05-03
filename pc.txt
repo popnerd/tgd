@@ -1,0 +1,28 @@
+h1{ /* 이름 굵게 */
+    font-weight: 900;
+}
+body {    /* 배경색 */
+    height: auto !important;
+    background:linear-gradient( to bottom , #fde477, #fefad0 ) ;    /* 아래 , 위 */
+        /* ex) background: #ffffff; */
+}
+#board-info #viewers-area #viewers:before {  /* 접속자 앞 */
+    content: "피자메뉴 고르는";
+    cursor: text;
+    font-weight: bold;
+}
+#board-info #viewers-area #viewers:after {  /* 접속자 뒤 */
+    content: "명";
+    cursor: text;
+    font-weight: bold;
+}
+header .row>div:nth-child(1)>a img {  /* 로고 가리기 */
+    opacity: 0
+}
+header .row>div:nth-child(1)>a {  /* 로고 */
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: url(https://upload.tgd.kr/20190503/1ca60dbc5a3423b322e7cd8d04ce7c92.png) no-repeat;
+    background-size: auto 50px;
+}
