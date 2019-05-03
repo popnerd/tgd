@@ -19,17 +19,7 @@
     height: 34px;
 }
 
-#main .menu-wrapper:nth-child(1)::before {
-    content: "트게더 메뉴";
-}
 
-#main .menu-wrapper:nth-child(2)::before {
-    content: "유용한 링크";
-}
-
-#main .menu-wrapper:nth-child(3)::before {
-    content: "트위치 스케줄";
-}
 
 #main .menu-wrapper a:nth-last-child(1) {
     border-radius: 0px 0px 15px 15px;
