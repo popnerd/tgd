@@ -19,29 +19,3 @@
     height: 34px;
 }
 
-
-
-#main .menu-wrapper a:nth-last-child(1) {
-    border-radius: 0px 0px 15px 15px;
-}
-
-#main .menu-wrapper > .header {
-    background: white;
-    border-radius: 12px 12px 0 0;
-}
-
-#main #main-content:before {
-    background: linear-gradient(135deg, #6441a5 24px, transparent 0), linear-gradient(225deg, #6441a5 24px, transparent 0);
-    background-repeat: repeat-x;
-    background-size: 12px 33px;
-    border-radius: 13px 13px 0 0;
-    position: absolute;
-    content: " ";
-    left: 0px;
-    margin-left: 15px;
-    margin-top: 2px;
-    width: calc(100% - 15px);
-    height: calc(100%);
-    pointer-events: none;
-}
-
