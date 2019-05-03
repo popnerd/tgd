@@ -1,28 +1,28 @@
-h1{ /* ÀÌ¸§ ±½°Ô */
+h1{ /* ì´ë¦„ êµµê²Œ */
     font-weight: 900;
 }
-body {    /* ¹è°æ»ö */
+body {    /* ë°°ê²½ìƒ‰ */
     height: auto !important;
-    background:linear-gradient( to bottom , #fde477, #fefad0 ) ;    /* ¾Æ·¡ , À§ */
+    background:linear-gradient( to bottom , #fde477, #fefad0 ) ;    /* ì•„ëž˜ , ìœ„ */
         /* ex) background: #ffffff; */
 }
-#board-info #viewers-area #viewers:before {  /* Á¢¼ÓÀÚ ¾Õ */
-    content: "ÇÇÀÚ¸Þ´º °í¸£´Â";
+#board-info #viewers-area #viewers:before {  /* ì ‘ì†ìž ì•ž */
+    content: "í”¼ìžë©”ë‰´ ê³ ë¥´ëŠ”";
     cursor: text;
     font-weight: bold;
 }
-#board-info #viewers-area #viewers:after {  /* Á¢¼ÓÀÚ µÚ */
-    content: "¸í";
+#board-info #viewers-area #viewers:after {  /* ì ‘ì†ìž ë’¤ */
+    content: "ëª…";
     cursor: text;
     font-weight: bold;
 }
-header .row>div:nth-child(1)>a img {  /* ·Î°í °¡¸®±â */
+header .row>div:nth-child(1)>a img {  /* ë¡œê³  ê°€ë¦¬ê¸° */
     opacity: 0
 }
-header .row>div:nth-child(1)>a {  /* ·Î°í */
+header .row>div:nth-child(1)>a {  /* ë¡œê³  */
     display: block;
     width: 200px;
     height: 50px;
-    background: url(https://upload.tgd.kr/20190503/1ca60dbc5a3423b322e7cd8d04ce7c92.png) no-repeat;
+    background: url(https://github.com/popnerd/tgd/blob/master/%ED%94%BC%EA%B2%8C%EB%8D%94.png) no-repeat;
     background-size: auto 50px;
 }
