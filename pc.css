@@ -1,28 +1,277 @@
-h1{ /* ì´ë¦„ êµµê²Œ */
-    font-weight: 900;
-}
-body {    /* ë°°ê²½ìƒ‰ */
+/* ¹è°æ */
+
+body {    /* ¹è°æ»ö */
     height: auto !important;
-    background:linear-gradient( to bottom , #fde477, #fefad0 ) ;    /* ì•„ëž˜ , ìœ„ */
+    background:linear-gradient( to bottom , #fde477, #fefad0 ) ;    /* ¾Æ·¡ , À§ */
         /* ex) background: #ffffff; */
 }
-#board-info #viewers-area #viewers:before {  /* ì ‘ì†ìž ì•ž */
-    content: "í”¼ìžë©”ë‰´ ê³ ë¥´ëŠ”";
-    cursor: text;
-    font-weight: bold;
-}
-#board-info #viewers-area #viewers:after {  /* ì ‘ì†ìž ë’¤ */
-    content: "ëª…";
-    cursor: text;
-    font-weight: bold;
-}
-header .row>div:nth-child(1)>a img {  /* ë¡œê³  ê°€ë¦¬ê¸° */
-    opacity: 0
-}
-header .row>div:nth-child(1)>a {  /* ë¡œê³  */
+
+
+/* ·Î°í */
+
+header .row>div:nth-child(1)>a {
+
     display: block;
+
     width: 200px;
+
     height: 50px;
-    background: url(https://github.com/popnerd/tgd/blob/master/%ED%94%BC%EA%B2%8C%EB%8D%94.png) no-repeat;
+
+    background: url() no-repeat; /* url(·Î°í °æ·Î ÀÔ·Â) */
+
     background-size: auto 50px;
+
+}
+
+header .row>div:nth-child(1)>a>img {
+
+  display: none;
+
+}
+
+
+/* °Ë»öÃ¢ */
+
+header #right-search-form>input[type=text] {
+
+    border: 3px solid #; /* °Ë»öÃ¢ Å×µÎ¸® »ö */
+
+    border-radius: 15px;
+
+}
+
+/* °Ë»ö ¹öÆ° */
+
+header #right-search-form>#right-search-btn {
+
+    color: #; /* °Ë»öÃ¢ ¿· µ¸º¸±â »ö */
+
+}
+
+/* ¹è³Ê */
+
+header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
+
+    border-radius: 15px;
+
+}
+
+
+/* ±¤°í ¹è³Ê */
+
+header #header-bar>.row {
+
+    border-top: 5px solid # !important; /* ±¤°í ¹è³Ê Å×µÎ¸® »ö */
+
+    border: 1px solid #; /* ±¤°í ¹è³Ê Å×µÎ¸® »ö */
+
+}
+
+/* ±¤°í ¹è³Ê ±¤°í ¹îÁö */
+
+header #header-bar #header-top-notice strong.notice-badge {
+
+    background: #; /* ±¤°í ¹è³Ê ±¤°í ¹îÁö ¹è°æ »ö»ó */
+
+}
+
+/* ÁÂÃø ¹è³Ê */
+
+#main .menu-wrapper {
+
+    border: 1px solid #; /* ÁÂÃø ¹è³Ê Å×µÎ¸® »ö */
+
+    border-top: none !important;
+
+}
+
+/* ÁÂÃø ¹è³Ê Çì´õ */
+
+#main .menu-wrapper>.header {
+
+    background: #; /* ÁÂÃø ¹è³Ê Á¦¸ñ ¹è°æ »ö */
+
+    border-radius: 15px 15px 0 0;
+
+}
+
+/* ÁÂÃø ¹è³Ê ºó °ø°£ */
+
+#main .menu-wrapper .spacer {
+
+    background: none;
+
+}
+
+/* ÁÂÃø ¹è³Ê ÇÏ´Ü */
+
+
+
+#main .menu-wrapper a:nth-last-child(1) {
+
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+/* ¸ÞÀÎ ¹è³Ê */
+
+#main #main-content>div.frame {
+
+    border-top: 5px solid # !important; /* ¸ÞÀÎ ¹è³Ê Å×µÎ¸® */
+
+    border: 1px solid #; /* ¸ÞÀÎ ¹è³Ê Å×µÎ¸® */
+
+}
+
+/* Á¢¼ÓÀÚ ¼ö */
+
+#board-info #viewers-area {
+
+    color: #; /* Á¢¼ÓÀÚ ¼ö ±Û¾¾ »ö */
+
+}
+
+
+#board-info #viewers-area #viewers:before {  /* Á¢¼ÓÀÚ ¾Õ */
+    content: "ÇÇÀÚ¸Þ´º °í¸£´Â";
+    cursor: text;
+    font-weight: bold;
+}
+#board-info #viewers-area #viewers:after {  /* Á¢¼ÓÀÚ µÚ */
+    content: "¸í";
+    cursor: text;
+    font-weight: bold;
+}
+
+
+
+/* ¸ÞÀÎ ¹è³Ê ±Û °øÁö */
+
+
+#article-list>.article-list-row.notice {
+
+    background-color: #; /* °øÁö ¹è°æ »ö */
+
+}
+
+
+/* ±Û ÃßÃµ ¼ö */
+
+
+#article-list>.article-list-row>.item>.list-header>span {
+
+    background-color: #; /* ±Û ÃßÃµ ¼ö ¹è°æ »ö */
+
+}
+
+
+
+/* ´ñ±Û ¼ö */
+
+
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+
+    color: #; /* ´ñ±Û ¼ö »ö */
+
+}
+
+
+
+#article-reply-area > .header h5 {
+
+    color: #; /* ´ñ±Û ¼ö »ö */
+
+}
+
+
+
+/* ÀÎ±â±Û ¹öÆ° */
+
+
+
+#article-list #article-list-menu>.btn.best {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* ¼³Á¤ ¹öÆ° */
+
+
+
+#article-list #article-list-menu>.btn.cog {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* »èÁ¦ ¹öÆ° */
+
+
+
+#article-list #article-list-menu>.btn.del {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* ±Û ¾²±â ¹öÆ° */
+
+
+
+#article-list #article-list-menu>.btn.write {
+
+    border-radius: 15px;
+
+}
+
+
+
+.btn-primary {
+
+    background-color: #; /* ±Û ¾²±â ¹öÆ° ¹è°æ »ö */
+
+    border-color: #; /* ±Û ¾²±â ¹öÆ° ¹è°æ »ö */
+
+}
+
+
+
+/* ¸ñ·Ï ¹öÆ° */
+
+
+
+.btn {
+
+    border-radius: 15px;
+
+}
+
+
+
+.btn-group-sm>.btn, .btn-sm {
+
+    border-radius: 15px;
+
+}
+
+
+
+/* °Ô½Ã±Û ÃßÃµ */
+
+
+
+.btn-outline-success {
+
+    color: #; /* ÃßÃµ ¹öÆ° ¹è°æ »ö */
+
+    border-color: #; /* ÃßÃµ ¹öÆ° Å×µÎ¸® »ö */
+
 }
