@@ -33,6 +33,7 @@ header .row>div:nth-child(1)>a {  /* ·Î°í */
 
 #main .menu-wrapper>.header {
   background: #fde477;
+  border-radius: 15px 15px 0 0;
 }
 
 .fa-navicon:before,
